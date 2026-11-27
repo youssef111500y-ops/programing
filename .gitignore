@@ -31,3 +31,16 @@ data/processed/*
 
 # OS
 .DS_Store
+
+# Research datasets
+data/raw/
+
+# Training checkpoints and generated artifacts
+results/pointnet2/
+*.pth
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
